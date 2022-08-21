@@ -39,6 +39,7 @@ a
 
 .card__img
     width: 100%
+    border-radius: 10px
 
 .card__titulo
     font-family: 'Raleway', sans-serif
@@ -53,7 +54,7 @@ a
     line-height: 28px
     color: #B8B8B8
 
-.boton
+.boton  //Botón da los estilos básicos al componente
     border: none
     min-width: 180px
     height: 50px
@@ -67,4 +68,35 @@ a
     justify-content: space-between
     align-items: center //centrado vertical
     background-color: #7673D4
+    transition: .3 ease all
+    &:hover
+        background-color: #6864E3
+        text-decoration: none
+
+.boton__texto
+    font-weight: 600
+
+// Modificador, clase con estilos para agregar a otra
+.boton--absolute
+    position: absolute
+    right: 20px
+    bottom: -25px
+
+.boton--verde
+    background-color: #7ba771
+    &:hover
+        background-color: #437837
+
+
+.frase
+    text-align: center
+    margin: 70px 0
+
+.frase__texto
+    margin-bottom: 20px
+    font-size: 30px
+    font-family: 'Raleway', sans-serif
+    font-weight: 600
+    font-style: italic
     
+

@@ -44,6 +44,7 @@ a:hover {
 
 .card__img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .card__titulo {
@@ -75,6 +76,41 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #7673D4;
+  transition: 0.3 ease all;
+}
+.boton:hover {
+  background-color: #6864E3;
+  text-decoration: none;
+}
+
+.boton__texto {
+  font-weight: 600;
+}
+
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+}
+
+.boton--verde {
+  background-color: #7ba771;
+}
+.boton--verde:hover {
+  background-color: #437837;
+}
+
+.frase {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.frase__texto {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
