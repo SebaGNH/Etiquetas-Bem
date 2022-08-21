@@ -23,6 +23,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.contenedor__cards {
+  margin: 70px 0;
+}
+
 .card {
   background: #404040;
   border-radius: 15px;
@@ -34,9 +38,8 @@ a:hover {
 }
 
 .card__thumbnail {
-  width: 650px;
+  width: 700px;
   height: 200px;
-  background-color: #000;
   margin-right: 20px;
   border-radius: 10px;
   display: inline-block;
